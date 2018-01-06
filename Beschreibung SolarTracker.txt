@@ -1,0 +1,17 @@
+SolarTracker ConnectionCheck Beschreibung
+
+Analog connection Check
+(Sicht von Oben)
+		solarPin2
+		shuntSpannung1
+		Motor 2 check Links
+			¦
+solarPin0		¦	solarPin1
+shuntSpannung0 ---------¦------ shuntSpannung0
+Motor 1 check Links	¦	Motor 1 check Rechts
+			¦
+		solarPin3
+		shuntSpannung1
+		Motor 2 check Rechts
+
+delay(2000)
